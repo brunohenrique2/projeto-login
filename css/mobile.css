@@ -35,12 +35,14 @@ section#login {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 
 }
 
 section#login > div#imagem {
     display: block;
-    background: var(--cor2) url(../img/glass.jpg) no-repeat center/contain;
+    background: var(--cor2) url(../img/glass.jpg) no-repeat center/cover;
     height: 200px;
 }
 
