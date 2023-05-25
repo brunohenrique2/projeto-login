@@ -12,7 +12,7 @@ grandes telas: acima de 1440px
 
 @media screen and (orientation: landscape) { /* CELULAR HORIZONTAL */
     section#login {
-        width: 80vw;
+        width: 500px;
         height: 300px;
     }
 
