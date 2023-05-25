@@ -10,24 +10,6 @@ desktop: 1024px até 1440px
 grandes telas: acima de 1440px
 */
 
-@media screen and (orientation: landscape) { /* CELULAR HORIZONTAL */
-    section#login {
-        width: 500px;
-        height: 300px;
-    }
-
-    section#login > div#imagem {
-        float: left;
-        width: 40%;
-        height: 100%;
-        background-position: left center;
-    }
-
-    section#login > div#formulario {
-        float: right;
-        width: 60%;
-    }
-}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLET */
     body {
