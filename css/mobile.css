@@ -61,6 +61,7 @@ div#formulario p {
 }
 
 div.campo {
+    display: flex;
     background-color: var(--cor2);
     height: 40px;
     padding: 4px;
@@ -83,7 +84,6 @@ div.campo input {
     padding-left: 5px;
     border: none;
     border-radius: 5px;
-    transform: translateY(-10px);
 }
 
 div#formulario input[type=submit] {
