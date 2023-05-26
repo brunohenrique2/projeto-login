@@ -68,35 +68,6 @@ div.campo {
     margin: 5px 0px;
     
 }
-/*
-div.campo label {
-    display: none;
-}
-
-div.campo span {
-    color: white;
-    font-size: 2em;
-    width: 40px;
-    padding: 5px;
-}
-
-div.campo input {
-    background-color: #94cfcd;
-    color: white;
-    width: calc(100% - 46px);
-    height: 100%;
-    padding: 4px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    outline: none;
-    transform: translateY(-13px);
-}
-
-div.campo input:focus-within {
-    background-color: white;
-}
-*/
 
 div.campo span {
     color: white;
