@@ -51,6 +51,7 @@ section#login > div#formulario {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    height: 300px;
 }
 
 div#formulario h1 {
