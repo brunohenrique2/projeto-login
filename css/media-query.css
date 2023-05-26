@@ -17,15 +17,15 @@ grandes telas: acima de 1440px
     }
 
     section#login > div#imagem {
-        float: left;
+        background-position: left center;
         width: 40%;
         height: 100%;
-        background-position: left center;
+        float: left;
     }
 
     section#login > div#formulario {
-        float: right;
         width: 60%;
+        float: right;
     }
 }
 
@@ -36,19 +36,19 @@ grandes telas: acima de 1440px
 
     section#login {
         width: 80vw;
-        height: 65vh;
+        height: 300px;
     }
 
     section#login > div#imagem {
-        float: left;
+        background-position: left center;
         width: 30%;
         height: 100%;
-        background-position: left center;
+        float: left;
     }
 
     section#login > div#formulario {
-        float: right;
         width: 70%;
+        float: right;
     }
 
 }
@@ -60,14 +60,14 @@ grandes telas: acima de 1440px
 
     section#login {
         width: 990px;
-        height: 65vh;
+        height: 350px;
     }
 
     section#login > div#imagem {
-        float: right;
+        background-position: right center;
         width: 50%;
         height: 100%;
-        background-position: right center;
+        float: right;
     }
 
     section#login > div#formulario {
@@ -81,5 +81,7 @@ grandes telas: acima de 1440px
 
     div#formulario p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
+
 }
